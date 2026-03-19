@@ -1,0 +1,80 @@
+<html>
+<head>
+  <!-- Link the style sheet here -->
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+  <!-- 🔹 Contenido -->
+<div class="container mt-5">
+
+    <h1 class="text-center mb-4">Contact Us</h1>
+
+    <div class="row">
+
+        <!-- Información -->
+        <div class="col-md-6">
+            <h3>Get in Touch</h3>
+            <p>We would love to hear from you! Reach out to us through any of the following channels:</p>
+
+            <ul class="list-unstyled">
+                <li><strong>📍 Address:</strong> 123 Main Street, New York, USA</li>
+                <li><strong>📞 Phone:</strong> +1 234 567 890</li>
+                <li><strong>📧 Email:</strong> contact@bestcars.com</li>
+                <li><strong>🕒 Hours:</strong> Mon - Sat: 9:00 AM - 6:00 PM</li>
+            </ul>
+        </div>
+
+        <!-- Formulario -->
+        <div class="col-md-6">
+            <h3>Send us a Message</h3>
+
+            <form>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Your email">
+                </div>
+
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+</html>
